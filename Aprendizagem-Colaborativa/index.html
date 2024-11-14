@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Aprendizado Colaborativo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Plataforma de Aprendizado Colaborativo</h1>
+    <p>Compartilhe conteúdo, aprenda e colabore com outros!</p>
+  </header>
+  
+  <section id="content-creation">
+    <h2>Crie e Compartilhe Conteúdo</h2>
+    <form id="content-form">
+      <input type="text" id="title" placeholder="Título do Conteúdo" required>
+      <textarea id="content" placeholder="Adicione sua contribuição aqui..." required></textarea>
+      <button type="submit">Publicar</button>
+    </form>
+  </section>
+  
+  <section id="feed">
+    <h2>Feed de Contribuições</h2>
+    <div id="contribution-list"></div>
+  </section>
+
+  <section id="comments-section">
+    <h2>Comentários</h2>
+    <div id="comments"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

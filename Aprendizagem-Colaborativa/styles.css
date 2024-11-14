@@ -1,0 +1,231 @@
+/* Reset de margin, padding e box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte Lexend */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap');
+
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: #f2f5f2; /* Cor de fundo suave */
+  color: #416769; /* Cor do texto */
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Cabeçalho da plataforma */
+header {
+  background-color: #212c28; /* Cor principal: verde suave */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Seção de Perfil de Usuário */
+#user-profile {
+  background-color: #FFFFFF; /* Branco para o conteúdo */
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#user-profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#user-profile h2 {
+  color: #5A8F7D; /* Cor de título principal */
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#user-profile p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#user-profile button {
+  background-color: #ffffff; /* Cor de destaque (amarelo suave) */
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#user-profile button:hover {
+  background-color: #657d88; /* Cor de destaque mais forte */
+}
+
+/* Seção de Criação de Conteúdo */
+#content-creation {
+  background-color: #FFFFFF; /* Branco para o conteúdo */
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#content-creation h2 {
+  color: #5A8F7D; /* Cor de título principal */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#content-creation input,
+#content-creation textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  font-family: 'Lexend', sans-serif;
+}
+
+#content-creation input {
+  background-color: #F9F9F9; /* Cor de fundo mais clara */
+}
+
+#content-creation textarea {
+  height: 200px;
+  background-color: #F9F9F9;
+}
+
+#content-creation button {
+  background-color: #3a6363; /* Cor de destaque (amarelo suave) */
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#content-creation button:hover {
+  background-color: #3a6363; /* Cor de destaque mais forte */
+}
+
+/* Feed de contribuições */
+#feed {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#feed h2 {
+  color: #5A8F7D;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contribution {
+  background-color: #F9F9F9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #5A8F7D; /* Linha lateral para destacar a contribuição */
+  box-shadow: 0 2px 10px rgba(42, 51, 40, 0.05);
+}
+
+.contribution h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contribution p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+button.like-button {
+  background-color: #3a6363;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.like-button:hover {
+  background-color: #3a6363;
+}
+
+/* Seção de comentários */
+#comments-section {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.comment-box {
+  background-color: #F9F9F9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #1d3a30;
+  box-shadow: 0 2px 5px rgba(149, 185, 149, 0.05);
+}
+
+textarea.comment-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #F9F9F9;
+}
+
+button.comment-button {
+  background-color: #5A8F7D;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.comment-button:hover {
+  background-color: #4A7D61;
+}
+
