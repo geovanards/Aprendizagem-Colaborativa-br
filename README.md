@@ -15,3 +15,14 @@ A **Plataforma de Aprendizado Colaborativo** é um ambiente online onde usuário
 - **CSS**: Estilização da plataforma, com uma paleta de cores sóbrias e modernas, projetadas para melhorar a experiência de aprendizado.
 - **JavaScript**: Implementação da interatividade, como a criação de novas contribuições, contagem de curtidas e atualização dinâmica do conteúdo.
 - **Google Fonts (Lexend)**: A fonte "Lexend" foi escolhida para proporcionar uma leitura mais confortável e fluída, ideal para textos educativos.
+  
+## Como Clonar o Projeto
+
+Para clonar o repositório do projeto, siga os passos abaixo:
+
+1. Abra o terminal (ou Git Bash, se estiver no Windows).
+2. Navegue até o diretório onde deseja salvar o projeto.
+3. Execute o comando abaixo para clonar o repositório:
+
+```bash
+git clone https://github.com/usuario/plataforma-aprendizado-colaborativo.git
